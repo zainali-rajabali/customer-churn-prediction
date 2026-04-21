@@ -1,6 +1,6 @@
 # Customer Churn Prediction — Telco Dataset
 
-End-to-end machine learning project predicting customer churn for a telecom company. Built in Python with logistic regression and random forest, achieving **~82% accuracy** and **0.84 ROC-AUC** on the test set.
+End-to-end machine learning project predicting customer churn for a telecom company. Built in Python with logistic regression and random forest, achieving **~79% accuracy** and **0.84 ROC-AUC** on the test set.
 
 ## Overview
 
@@ -10,8 +10,8 @@ This project walks through a classic supervised classification problem: identify
 
 | Model | Accuracy | F1 | ROC-AUC |
 |---|---|---|---|
-| Logistic Regression | ~0.81 | ~0.61 | ~0.84 |
-| Random Forest | ~0.80 | ~0.58 | ~0.83 |
+| Logistic Regression | 0.79 | 0.58 | 0.83 |
+| Random Forest | 0.79 | 0.56 | 0.84 |
 
 Both models perform in the same ballpark, with logistic regression slightly ahead on F1 — making it the better choice here given its interpretability advantage.
 
